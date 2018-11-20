@@ -30,7 +30,7 @@ namespace SoundKeepAPI
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddDbContext<SoundKeepAPIContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("SoundKeepAPIContext")));
+                    options.UseSqlite(Configuration.GetConnectionString("SoundKeepAPIContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
