@@ -26,6 +26,7 @@ namespace MemeBank.Models
                     {
                         TrackID = "253508261",
                         TrackURL = "https://soundcloud.com/rick-astley-official/never-gonna-give-you-up",
+                        ArtworkURL = "https://i1.sndcdn.com/artworks-NYa30RprqObZ-0-t500x500.jpg",
                         Artist = "Rick Astley",
                         Title = "Never Gonna Give You Up",
                         Status = "PASS",

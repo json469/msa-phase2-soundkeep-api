@@ -14,6 +14,7 @@ namespace SoundKeepAPI.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     TrackID = table.Column<string>(nullable: true),
                     TrackURL = table.Column<string>(nullable: true),
+                    ArtworkURL = table.Column<string>(nullable: true),
                     Artist = table.Column<string>(nullable: true),
                     Title = table.Column<string>(nullable: true),
                     Status = table.Column<string>(nullable: true),

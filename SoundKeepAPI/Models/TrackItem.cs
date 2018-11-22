@@ -10,6 +10,7 @@ namespace SoundKeepAPI.Models
         public int ID { get; set; }
         public string TrackID { get; set; }
         public string TrackURL { get; set; }
+        public string ArtworkURL { get; set; }
         public string Artist { get; set; }
         public string Title { get; set; }
         public string Status { get; set; }
