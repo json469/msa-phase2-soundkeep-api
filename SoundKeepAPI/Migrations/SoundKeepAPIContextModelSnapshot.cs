@@ -22,8 +22,6 @@ namespace SoundKeepAPI.Migrations
 
                     b.Property<string>("Artist");
 
-                    b.Property<string>("ArtworkURL");
-
                     b.Property<string>("Comment");
 
                     b.Property<string>("DateAdded");

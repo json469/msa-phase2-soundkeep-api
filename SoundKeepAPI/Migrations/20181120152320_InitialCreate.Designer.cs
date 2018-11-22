@@ -8,7 +8,7 @@ using SoundKeepAPI.Models;
 namespace SoundKeepAPI.Migrations
 {
     [DbContext(typeof(SoundKeepAPIContext))]
-    [Migration("20181122070912_InitialCreate")]
+    [Migration("20181120152320_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,8 +23,6 @@ namespace SoundKeepAPI.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Artist");
-
-                    b.Property<string>("ArtworkURL");
 
                     b.Property<string>("Comment");
 
